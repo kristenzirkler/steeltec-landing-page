@@ -1,18 +1,22 @@
-$body-background: #fff;
+$white: #fff;
+$black: #000;
 
-$page-background: $body-background;
 
-$main-color: #7dc52f;
+$body-background: $black;
+
+$page-background: $black;
+
+$main-color: #DF252A;
 
 $gray-lightest: #f5f4f2;
 $gray-light: #d4d4d2;
 $gray: #8d9095;
 
-$font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+$font-family: 'Work Sans', Helvetica, Arial, 'Lucida Grande', sans-serif;
 $accent-font: Arial, 'Lucida Grande', sans-serif;
 
-$font-color: #000;
-$link: $main-color;
+$font-color: $white;
+$link: $white;
 
 $error: #d92424;
 
