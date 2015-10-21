@@ -6,6 +6,12 @@ body {
     min-height: 400px;
 }
 .container {
+    opacity: 0;
+    @include transition(all 1.5s ease-in);
+    &.show {
+        opacity: 1;
+    }
+
     max-width: 320px;
     text-align: center;
 
@@ -16,8 +22,8 @@ body {
     left: 50%;
 
     h1 {
-        font-size: 28px;
-        margin-top: 20px;
+        font-size: 20px;
+        margin-top: 30px;
         margin-right: 20px;
         margin-left: 20px;
         font-weight: 700;
