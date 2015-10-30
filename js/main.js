@@ -4,6 +4,14 @@ $(function(){
 	// fade in
 	$(document).ready(function(){
 		$('.container').addClass('show');
+
+		var username = 'info',
+			hostname = 'steeltec.us', 
+			linktext = username + '@' + hostname;
+
+		$('#contact-email').html('<a href="mailto:' + linktext + '">' + linktext + '</a>');
+
 	});
+
 
 });
